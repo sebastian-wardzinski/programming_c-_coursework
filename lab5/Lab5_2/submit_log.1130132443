@@ -1,0 +1,69 @@
+Submitting assignment 5 from p146.ecf.utoronto.ca
+Checking for the expected files in the current directory
+Main.cpp DBentry.h DBentry.cpp TreeNode.cpp TreeNode.h TreeDB.h TreeDB.cpp
+Attempting to build your code.  Make output follows:
+==================================================================
+scl enable devtoolset-4 'g++ -std=c++0x -c Main.cpp'
+scl enable devtoolset-4 'g++ -std=c++0x -c TreeDB.cpp'
+scl enable devtoolset-4 'g++ -std=c++0x -c TreeNode.cpp'
+scl enable devtoolset-4 'g++ -std=c++0x -c DBentry.cpp'
+scl enable devtoolset-4 'g++ -std=c++0x Main.o TreeDB.o TreeNode.o DBentry.o -o db'
+------------------------------------------------------------------
+The build appears to have been successful
+
+Running exercise on the produced executable 'db'
+############### Testcase 1 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+############### Testcase 2 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+############### Testcase 3 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+############### Testcase 4 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+############### Testcase 5 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+############### Testcase 6 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+################# Summary for 6 test(s) #####################
+Functionality: PASS: All tests passed
+Valgrind:      PASS: No memory leaks detected
+
+The required files passed exercise
+
+Submitting files
+
+Verifying submission
+submitece244f -l 5
+total 92
+-rw-r----- 1 submit ece244f 1238 Nov 30 13:24 DBentry.cpp
+-rw-r----- 1 submit ece244f 1029 Nov 30 13:24 DBentry.h
+-rw-r----- 1 submit ece244f 3847 Nov 30 13:24 Main.cpp
+-rw-r----- 1 submit ece244f  620 Nov 29 16:19 submit_log.1129161955
+-rw-r----- 1 submit ece244f  620 Nov 29 16:22 submit_log.1129162202
+-rw-r----- 1 submit ece244f  620 Nov 29 16:24 submit_log.1129162429
+-rw-r----- 1 submit ece244f  440 Nov 29 16:26 submit_log.1129162602
+-rw-r----- 1 submit ece244f 1113 Nov 29 16:30 submit_log.1129162855
+-rw-r----- 1 submit ece244f 1113 Nov 29 17:49 submit_log.1129164759
+-rw-r----- 1 submit ece244f 1751 Nov 29 17:53 submit_log.1129174942
+-rw-r----- 1 submit ece244f 1751 Nov 29 18:22 submit_log.1129175339
+-rw-r----- 1 submit ece244f 1751 Nov 29 18:24 submit_log.1129182243
+-rw-r----- 1 submit ece244f 1751 Nov 29 18:24 submit_log.1129182412
+-rw-r----- 1 submit ece244f 1751 Nov 29 18:29 submit_log.1129182946
+-rw-r----- 1 submit ece244f 3301 Nov 29 20:22 submit_log.1129202206
+-rw-r----- 1 submit ece244f 3247 Nov 29 20:33 submit_log.1129203328
+-rw-r----- 1 submit ece244f 3315 Nov 29 20:34 submit_log.1129203358
+-rw-r----- 1 submit ece244f 9589 Nov 30 13:24 TreeDB.cpp
+-rw-r----- 1 submit ece244f 2236 Nov 30 13:24 TreeDB.h
+-rw-r----- 1 submit ece244f  789 Nov 30 13:24 TreeNode.cpp
+-rw-r----- 1 submit ece244f  692 Nov 30 13:24 TreeNode.h
+
+All filesizes match. All timestamps match submission time.
+
+Submission was successful
+
