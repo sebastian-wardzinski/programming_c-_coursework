@@ -1,0 +1,14 @@
+Submitting assignment 4 from p153.ecf.utoronto.ca
+Checking for the expected files in the current directory
+AsteroidList.cpp MyAIData.hpp AsteroidsObserver.cpp GameAI.cpp
+can't find file 'AsteroidList.cpp'.
+can't find file 'MyAIData.hpp'.
+can't find file 'AsteroidsObserver.cpp'.
+can't find file 'GameAI.cpp'.
+
+Error: cannot find all expected files in the current directory.
+Please make sure all necessary files are in the current directory. Also, 
+check that the file names are correct, including capitalization.
+
+No files were submitted
+

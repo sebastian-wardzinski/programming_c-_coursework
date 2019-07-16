@@ -1,0 +1,40 @@
+Submitting assignment 3 from p120.ecf.utoronto.ca
+Checking for the expected files in the current directory
+main.cpp shape.cpp shape.h globals.h
+Attempting to build your code.  Make output follows:
+==================================================================
+scl enable devtoolset-4 'g++ -std=c++11 -c main.cpp'
+scl enable devtoolset-4 'g++ -std=c++11 -c shape.cpp'
+scl enable devtoolset-4 'g++ -std=c++11 main.o shape.o -o main'
+------------------------------------------------------------------
+The build appears to have been successful
+
+Running exercise on the produced executable 'main'
+############### Testcase 1 Results ##########################
+Functionality: PASS - Output matches solution
+############### Testcase 2 Results ##########################
+Functionality: PASS - Output matches solution
+############### Testcase 3 Results ##########################
+Functionality: PASS - Output matches solution
+############### Testcase 4 Results ##########################
+Functionality: PASS - Output matches solution
+################# Summary for 4 test(s) #####################
+Functionality: PASS: All tests passed
+
+The required files passed exercise
+
+Submitting files
+
+Verifying submission
+submitece244f -l 3
+total 32
+-rw-r----- 1 submit ece244f   613 Oct 18 18:20 globals.h
+-rw-r----- 1 submit ece244f 15519 Oct 18 18:20 main.cpp
+-rw-r----- 1 submit ece244f  3057 Oct 18 18:20 shape.cpp
+-rw-r----- 1 submit ece244f  2430 Oct 18 18:20 shape.h
+-rw-r----- 1 submit ece244f  1218 Oct 17 19:20 submit_log.1017191953
+
+All filesizes match. All timestamps match submission time.
+
+Submission was successful
+
